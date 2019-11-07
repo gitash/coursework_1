@@ -1,5 +1,7 @@
 #! /bin/bash
 
+echo "################ BEGIN UNIT TESTS ################"
+echo " "
 echo "================ Test 1: Negative Integer ================"
 if  java Dec2Hex -5
 then
@@ -49,5 +51,5 @@ else
 echo "Result: declined positive integer."
 echo "----------------TEST FAILED----------------"
 fi
-
+echo " "
 echo "################ Testing Complete ################"
