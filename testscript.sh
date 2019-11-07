@@ -2,7 +2,7 @@
 
 echo "################ BEGIN UNIT TESTS ################"
 echo " "
-echo "=========== Test 1: Negative Integer ============"
+echo "======== Test 1: Negative Integer ========="
 if  java Dec2Hex -5
 then
 echo "Result: accepted negative integer."
